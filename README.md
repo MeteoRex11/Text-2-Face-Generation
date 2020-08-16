@@ -80,8 +80,7 @@ __Sample configuration:__
     use_matching_aware_discriminator: True  # use the matching aware discriminator
 
 Use the `requirements.txt` to install all the dependencies for the project. 
-    
-    $ workon [your virtual environment]
+  
     $ pip install -r requirements.txt
 
 __Sample run:__
@@ -92,6 +91,5 @@ __Sample run:__
 
 
 ## Other links:
-blog: https://medium.com/@animeshsk3/t2f-text-to-face-generation-using-deep-learning-b3b6ba5a5a93 <br>
-training_time_lapse video: https://www.youtube.com/watch?v=NO_l87rPDb8 <br>
+Original Repository: https://github.com/akanimax/T2F <br>
 ProGAN package (Seperate library): https://github.com/akanimax/pro_gan_pytorch
