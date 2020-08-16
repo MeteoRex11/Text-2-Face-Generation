@@ -3,9 +3,6 @@
 Text-to-Face generation using Deep Learning. This project combines two of the recent architectures <a href="https://arxiv.org/abs/1710.10916"> StackGAN </a> and <a href="https://arxiv.org/abs/1710.10196"> ProGAN </a> for synthesizing faces from textual descriptions.<br>
 The project uses <a href="https://arxiv.org/abs/1803.03827"> Face2Text </a> dataset which contains 400 facial images and textual captions for each of them. The data can be obtained by contacting either the **RIVAL** group or the authors of the aforementioned paper.
 
-<h3>Some Examples:</h3>
-<img src="https://github.com/akanimax/T2F/blob/master/figures/result.jpeg" alt="Examples">
-
 <h3>Architecture: </h3>
 <img src="https://github.com/akanimax/T2F/blob/master/figures/architecture.jpg" alt="Architecture Diagram">
 The textual description is encoded into a summary vector using an LSTM network. The summary vector, i.e. <b>Embedding</b> <i>(psy_t)</i> as shown in the diagram is passed through the Conditioning Augmentation block (a single linear layer) to obtain the textual part of the latent vector (uses VAE like reparameterization technique) for the GAN as input. The second part of the latent vector is random gaussian noise. The latent vector so produced is fed to the generator part of the GAN, while the embedding is fed to the final layer of the discriminator for conditional distribution matching. The training of the GAN progresses exactly as mentioned in the ProGAN paper; i.e. layer by layer at increasing spatial resolutions. The new layer is introduced using the fade-in technique to avoid destroying previous learning.
