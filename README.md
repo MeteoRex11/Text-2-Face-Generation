@@ -1,6 +1,7 @@
 # Text-2-Face Generation
 
-Text-to-Face generation using Deep Learning. This project combines two of the recent architectures <a href="https://arxiv.org/abs/1710.10916"> StackGAN </a> and <a href="https://arxiv.org/abs/1710.10196"> ProGAN </a> for synthesizing faces from textual descriptions.<br>
+Text-to-Face generation using Deep Learning, based on the work done by <a href=https://github.com/akanimax/T2F/commits?author=akanimax>akanimax</a>. 
+This project combines two of the recent architectures <a href="https://arxiv.org/abs/1710.10916"> StackGAN </a> and <a href="https://arxiv.org/abs/1710.10196"> ProGAN </a> for synthesizing faces from textual descriptions.<br>
 The project uses <a href="https://arxiv.org/abs/1803.03827"> Face2Text </a> dataset which contains 400 facial images and textual captions for each of them. The data can be obtained by contacting either the **RIVAL** group or the authors of the aforementioned paper.
 
 <h3>Architecture: </h3>
