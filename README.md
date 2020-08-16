@@ -94,8 +94,6 @@ __Sample run:__
 
  **Ankit Billa**  - [MeteoRex11](https://github.com/MeteoRex11)
 
-See also the list of [contributors](https://github.com/MeteoRex11/pfprint-dl/settings/access?query=filter%3Acollaborators) who participated in this project.
-
 ## Acknowledgments
 * Huge thanks to [akanimax](https://github.com/akanimax/T2F/commits?author=akanimax) for the [original repository](https://github.com/akanimax/T2F)
 
