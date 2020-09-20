@@ -98,4 +98,4 @@ __Sample run:__
 * Huge thanks to [akanimax](https://github.com/akanimax/T2F/commits?author=akanimax) for the [original repository](https://github.com/akanimax/T2F)
 
 ## Other links:
-ProGAN package (Seperate library): https://github.com/akanimax/pro_gan_pytorch
+ProGAN package (Separate library): https://github.com/akanimax/pro_gan_pytorch
